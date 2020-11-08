@@ -1,0 +1,45 @@
+.form-control-warning {
+    margin: 10px;
+    opacity: .5;
+    border: 2px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    padding: 70px 0 0 10px;
+    border-right: 1px solid #d3d3d3;
+}
+
+.left-sidebar{
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 70px);
+    padding-top: 60px;
+    font-size: 1.3em;
+}
+
+main {
+    padding-top: 60px;
+}
+
+main h1 {
+    padding-bottom: 40px;
+}
+
+main h3 {
+    padding-bottom: 10px;
+}
+
+main .status {
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+main .section { 
+    margin-bottom: 40px;
+}

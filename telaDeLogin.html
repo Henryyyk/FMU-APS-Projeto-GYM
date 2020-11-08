@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/loginScreen.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <script src="node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <title>Tela de login - APS - Interface Humao computador</title>
+</head>
+<body>
+
+   <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 d-none d-md-block img-container"></div>
+        <div class="col-lg-6 col-md-6 form-container">
+            <div class="col-lg-8 col-md-12 col-sm-9 col-xs-12 form-box text-center">
+                <div class="logo mb-3">
+                    <h1><i class="fas fa-dumbbell"></i> GYM</h1>
+                </div>
+                <div class="heading mb-4">
+                    <h4>Faça login na sua conta</h4>
+                </div>
+                <form>
+                    <div class="form-input">
+                        <span><i class="fa fa-envelope"></i></span>
+                        <input type="email" placeholder="Insira seu e-mail" required>
+                    </div>
+                    <div class="form-input">
+                        <span><i class="fa fa-lock"></i></span>
+                        <input type="password" placeholder="Insira sua senha" required>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-6 d-flex">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="checkb1">
+                                <label for="checkb1" class="custom-control-label text-white">Permanecer conectado</label>
+                            </div>
+                        </div>
+                        <div class="col-6 text-right">
+                            <a href="src/recuperarSenha.html" class="esqueceuSenhaLink">
+                                Esqueceu a Senha?
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="text-center mb-3">
+                                <button type="submit" class="btn">
+                                    <a href="src/tipoDeConta.html" class="login">Login</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+   </div>
+
+    <!--Scripts-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/funcionarioDashboard.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <script src="../node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <title>Funcionario dashboard - APS - Interface Humao computador</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-warning fixed-top flex-md-nowrap p-0 shadow">
+        <a href="#" class="navbar-brand col-sm-3 col-md-2 mr-0 text-dark"><i class="fas fa-dumbbell"></i> GYM</a>
+        <input type="text" class="form-control form-control-warning w-100" placeholder="Buscar...">
+        <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+                <a href="../telaDeLogin.html" class="nav-link text-dark">Logout <i class="fas fa-sign-out-alt"></i></a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 bg-light d-none d-md-block sidebar">
+                <div class="left-sidebar">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                          <a class="nav-link " href="#"><i class="fas fa-user-plus"></i> Cadastrar cliente</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><i class="fas fa-user-times"></i> Cancelar inscrição</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><i class="fas fa-money-bill-wave"></i> Pagamentos</a>
+                        </li>                        
+                      </ul>
+                </div>
+            </div>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                <h3>Cadastrar cliente</h3>
+                <div class="row">
+                    <div class="col-4">
+                        <input class="form-control" type="text" placeholder="Nome">
+                    </div>
+                    <div class="col-8">
+                        <input class="form-control" type="text" placeholder="Sobrenome">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <input class="form-control" type="email" placeholder="E-mail">
+                    </div>
+                    <div class="col-6">
+                        <input class="form-control" type="text" placeholder="CPF">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <input class="form-control" type="text" placeholder="Endereço">
+                    </div>
+                    <div class="col-4">
+                        <input class="form-control" type="text" placeholder="Numero">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <input class="form-control" type="text" placeholder="Bairro">
+                    </div>
+                    <div class="col-6">
+                        <input class="form-control" type="text" placeholder="CEP">
+                    </div>
+                </div>
+                <div class="text-center mb-3">
+                    <button type="submit" class="btn">
+                       <a><i class="fas fa-user-plus"></i> Cadastrar Cliente</a>
+                    </button>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!--Scripts-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
